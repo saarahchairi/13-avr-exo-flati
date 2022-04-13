@@ -1,0 +1,90 @@
+@media screen and (min-width: 769px) and (max-width: 1440px) {
+  main #citation .container {
+    padding: 40px 5% !important;
+  }
+  main #pack .container {
+    padding: 40px 5% !important;
+    gap: 20px !important;
+  }
+  main #work .container {
+    padding: 40px 5% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+  main #work .container .text1 {
+    padding: 0 10% 40px;
+    text-align: center !important;
+  }
+  main #work .container .img {
+    padding: 0 10%;
+    display: flex !important;
+    gap: 40px !important;
+  }
+  main #work .container .img .cover img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 768px) {
+  header nav {
+    display: flex !important;
+    flex-direction: column;
+    padding: 10px 5% !important;
+  }
+  header nav .company a {
+    font-size: 40px !important;
+  }
+  header nav .menu ul {
+    padding: 0;
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  header nav .menu ul li {
+    margin: 10px;
+  }
+  header .banner {
+    display: none;
+  }
+
+  main #citation .container {
+    padding: 40px 5% !important;
+  }
+  main #pack .container {
+    padding: 40px 5% !important;
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+  main #work .container {
+    padding: 40px 5% !important;
+    display: flex !important;
+    flex-direction: column;
+  }
+  main #work .container .text1 {
+    text-align: center;
+    padding: 0 10% 40px;
+  }
+  main #work .container .text1 p {
+    text-align: justify;
+  }
+  main #work .container .img {
+    display: flex !important;
+    flex-wrap: wrap;
+    gap: 20px !important;
+  }
+  main #work .container .img div .cover img {
+    width: 100%;
+  }
+
+  footer #contact .container {
+    padding: 40px 15%;
+  }
+  footer #contact .container i {
+    font-size: 30px !important;
+  }
+  footer #copyright .container p {
+    padding: 20px 5% !important;
+    font-size: 10px;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

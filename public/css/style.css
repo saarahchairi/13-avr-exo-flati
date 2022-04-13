@@ -93,13 +93,13 @@ body main #work .container {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-body main #work .container .text h3 {
+body main #work .container .text1 h3 {
   color: #a0948c;
 }
-body main #work .container .text p {
+body main #work .container .text1 p {
   color: #a3a7b3;
 }
-body main #work .container .text button {
+body main #work .container .text1 button {
   background-color: #26a2cc;
   color: white;
   border: 1px solid transparent;
