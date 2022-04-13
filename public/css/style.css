@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+body header nav {
+  background-color: #363b47;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 10px 15%;
+  align-items: center;
+}
+body header nav .company a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+body header nav .menu ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+body header nav .menu ul li {
+  list-style-type: none;
+}
+body header nav .menu ul li a {
+  text-decoration: none;
+  color: #a3a7b3;
+}
+body header nav .menu ul li:first-child a {
+  color: white;
+  background-color: #3676bb;
+}
+body header .banner {
+  height: 30vh;
+  background: url(../img/bg-header.png) center/cover;
+}
+body main #citation {
+  background-color: #e8e6e0;
+  text-align: center;
+  color: #a3a7b3;
+}
+body main #citation .container {
+  padding: 40px 15%;
+}
+body main #citation .container p .surligne {
+  background-color: #26a2cc;
+  color: white;
+}
+body main #citation .container p .bleu {
+  color: #26cacc;
+}
+body main #citation .container p .gris {
+  color: #69747f;
+}
+body main #pack {
+  background-color: #efeff1;
+}
+body main #pack .container {
+  padding: 40px 15%;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 50px;
+}
+body main #pack .container div {
+  background-color: #e8e6e0;
+  border-radius: 5px;
+  padding: 10px 10px 40px 10px;
+}
+body main #pack .container div i {
+  color: #3676bb;
+  background-color: #efeded;
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 20px;
+}
+body main #pack .container div h4 {
+  text-transform: uppercase;
+}
+body main #pack .container div h5 {
+  color: #49a7cc;
+}
+body main #pack .container div p {
+  color: #a3a7b3;
+}
+body main #work {
+  background-color: #efeff1;
+}
+body main #work .container {
+  padding: 40px 15%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+body main #work .container .text h3 {
+  color: #a0948c;
+}
+body main #work .container .text p {
+  color: #a3a7b3;
+}
+body main #work .container .text button {
+  background-color: #26a2cc;
+  color: white;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  height: 50px;
+  width: 100px;
+}
+body main #work .container .img {
+  display: grid;
+  text-align: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+}
+body main #work .container .img div {
+  background-color: #38485f;
+}
+body main #work .container .img div div.info h4 {
+  text-transform: uppercase;
+  color: white;
+}
+body main #work .container .img div div.info p {
+  color: #a3a7b3;
+}
+body footer #contact {
+  background-color: #3676bb;
+  text-align: center;
+  color: #afc5d6;
+}
+body footer #contact .container {
+  padding: 40px 15%;
+}
+body footer #contact .container h2 {
+  text-transform: uppercase;
+  margin: 0;
+}
+body footer #contact .container i {
+  color: #5e91c9;
+  margin: 0 5px;
+}
+body footer #copyright {
+  background-color: #363b47;
+  text-align: center;
+  color: #6c7077;
+}
+body footer #copyright .container p {
+  padding: 20px 15%;
+  margin: 0;
+}
+
+/*# sourceMappingURL=style.css.map */

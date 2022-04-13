@@ -1,0 +1,136 @@
+@import ./_variable
+
+body
+    margin: 0
+    padding: 0
+    font-family: 'Open Sans', sans-serif
+
+    header
+        nav
+            background-color: #363b47
+            display: grid
+            grid-template-columns: 1fr 2fr
+            padding: 10px 15%
+            align-items: center
+            .company
+                a
+                    text-decoration: none
+                    color: white
+                    text-transform: uppercase
+                    font-size: 20px
+            .menu
+                ul 
+                    display: grid
+                    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr
+                    justify-items: center
+                    li
+                        list-style-type: none
+                        a
+                            text-decoration: none
+                            color: $text-color
+                    li:first-child a
+                        color: white
+                        background-color: #3676bb
+        .banner
+            height: 30vh
+            background: url(../img/bg-header.png) center / cover
+
+    main
+        #citation
+            background-color: #e8e6e0
+            text-align: center
+            color: $text-color
+            .container
+                padding: 40px 15%
+                p
+                    .surligne
+                        background-color: #26a2cc
+                        color: white
+                    .bleu
+                        color: #26cacc
+                    .gris
+                        color: #69747f
+
+        #pack
+            background-color: #efeff1
+            .container
+                padding: 40px 15%
+                text-align: center
+                display: grid
+                grid-template-columns: 1fr 1fr 1fr 1fr
+                gap: 50px
+                div
+                    background-color: #e8e6e0
+                    border-radius: 5px
+                    padding: 10px 10px 40px 10px
+                    i
+                        color: #3676bb
+                        background-color: #efeded
+                        border-radius: 50%
+                        padding: 20px
+                        font-size: 20px
+                    h4
+                        text-transform: uppercase
+                    h5
+                        color: #49a7cc
+                    p
+                        color: $text-color
+
+        #work
+            background-color: #efeff1
+            .container
+                padding: 40px 15%
+                display: grid
+                grid-template-columns: 1fr 1fr
+                .text
+                    h3
+                        color: #a0948c
+                    p
+                        color: $text-color
+                    button
+                        background-color: #26a2cc
+                        color: white
+                        border: 1px solid transparent
+                        border-radius: 5px
+                        height: 50px
+                        width: 100px
+                
+                .img
+                    display: grid
+                    text-align: center
+                    grid-template-columns: 1fr 1fr 1fr
+                    gap: 10px
+                    div
+                        background-color: #38485f
+                        .cover
+                        div.info 
+                            h4
+                                text-transform: uppercase
+                                color: white 
+                            p
+                                color: $text-color
+
+    footer
+        #contact
+            background-color: #3676bb
+            text-align: center
+            color: #afc5d6
+            .container
+                padding: 40px 15%
+                h2
+                    text-transform: uppercase
+                    margin: 0
+                i
+                    color: #5e91c9
+                    margin: 0 5px  
+
+        #copyright
+            background-color: #363b47
+            text-align: center
+            color: #6c7077
+            .container
+                p
+                    padding: 20px 15%
+                    margin: 0
+
+
